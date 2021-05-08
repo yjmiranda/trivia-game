@@ -1,0 +1,8 @@
+html{
+  height: 100%;
+  background-image: linear-gradient(to right,#d2e5ff,#f6d5ea);
+}
+
+body{
+  min-height: 100%;
+}
