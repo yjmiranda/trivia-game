@@ -6,7 +6,7 @@ $(function(){
   var game = {
     correct: 0,
     wrong: 0,
-    timeLeft: 10,
+    timeLeft: 50,
     countdown: function(){
       game.timeLeft--;
 
@@ -22,7 +22,7 @@ $(function(){
       $("#start-btn").remove();
 
       var timeDiv = $("<h2>");
-      timeDiv.html(`Time remaining: <span id="seconds">10</span>`);
+      timeDiv.html(`Time remaining: <span id="seconds">50</span>`);
       questionDiv.append(timeDiv);
 
       for(let i = 0; i < questions.length; i++){
